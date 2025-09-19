@@ -1,0 +1,198 @@
+<html>
+<head>
+  <title>Cnt</title>
+<style>
+    /*navigation*/
+  body{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    }
+    
+  h1{
+        background-color: rgb(249, 214, 179);
+    }
+
+  header {
+      background: #333;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+  nav a {
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      text-decoration: none;
+    }
+
+  nav a:hover {
+      background-color: #111111;
+    }
+
+/*contact*/
+h1{
+  background-color: rgb(249, 214, 179);
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(227, 148, 70);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(227, 148, 70);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(227, 148, 70);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(227, 148, 70);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: rgb(227, 148, 70);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  width: 25%;
+  background-color: rgb(227, 148, 70);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=reset]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+p{
+   font-size: 8px;
+   color: #111111;
+   text-align-last: center;
+}
+
+/*footer*/
+.footer {
+   position:unset;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 2px;
+   background-color: #111111;
+   text-align: center;
+}
+
+</style>
+</head>
+<body>
+  <center>
+    <!--navigation-->
+    <img src="Logo.png" alt="logo" style="width:100px;height:100px;">
+    <h1>My Portfolio</h1> 
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+        <a href="video.html">Video</a>
+      </nav>
+    </header> 
+
+<!--contact-->
+<h1>Contact</h1>
+    <fieldset>
+    <form action="action_page.php" method="POST" autocomplete="on">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="phoneno.">Phone No.:</label><br>
+        <input type="number" id="phoneno." name="phoneno."><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="query">Query:</label><br>
+        <input type="text" id="query" name="query"><br><br>
+
+        <label for="message">Leave Message:</lable><br>
+        <textarea id="message" name="message" placeholder="Leave Message" rows="4"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    </fieldset><br><br>
+</center>
+
+<!--footer-->
+
+<div class="footer">
+    <a href="default.asp">
+    <img src="Gmail.jpg" alt="gmail_logo" style="width:42px;height:42px;">
+  </a>
+  <a href="default.asp">
+    <img src="Linkedin.jpg" alt="linkedin_logo" style="width:42px;height:42px;">
+  </a>
+  <a href="default.asp">
+    <img src="X.jpg" alt="X_logo" style="width:42px;height:42px;">
+  </a>
+  <a href="default.asp">
+    <img src="Facebook.jpg" alt="facebook_logo" style="width:42px;height:42px;">
+  </a>
+  <a href="default.asp">
+    <img src="Instagram.jpg" alt="instagram_logo" style="width:42px;height:42px;">
+  </a>
+  <a href="default.asp">
+    <img src="Whatsapp.jpg" alt="whatsapp_logo" style="width:42px;height:42px;">
+  
+  </div>
+</body>
+</html>
